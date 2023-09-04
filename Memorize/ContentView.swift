@@ -18,7 +18,7 @@ struct ContentView: View {
                 cards
             }
             Spacer()
-            cardCountAjusted
+            cardCountAjusters
         }
         .padding()
     }
@@ -33,7 +33,7 @@ struct ContentView: View {
         .foregroundColor(.orange)
     }
     
-    var cardCountAjusted: some View {
+    var cardCountAjusters: some View {
         HStack {
             cardRemover
             Spacer()
